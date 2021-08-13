@@ -1,0 +1,22 @@
+{
+    "name": "fayouz/laminas-mailer-api-tools",
+    "description": "Fayouz Laminas Mailer Api Tools",
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "http://www.regaz.fr",
+    "keywords": [
+		"doctrine",
+        "helper"
+    ],
+    "require": {
+        "php": "^7.0",
+        "laminas/laminas-mail": "^2.7.6 || ^3.1",
+        "outeredge/swagger-module": "^2.1",
+        "laminas-api-tools/api-tools-documentation-swagger": "1.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fayouz\\Laminas\\Mailer\\ApiTools\\": "module/src"
+        }
+    }
+}
